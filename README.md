@@ -1,5 +1,5 @@
 # Unlabelled Speaker Recognition
-This repository contains the proposed solutions for unsupervised clustering speaker recognition task. This project tackle the clustering of over 200 unlabelled recordings to distinguish between speakers using unsupervised clustering algorithm.
+This repository contains the proposed solutions for unsupervised speaker recognition task. This project tackle the clustering of over 200 unlabelled recordings to distinguish between speakers using unsupervised clustering algorithm.
 
 ---
 # Dataset: CMU ARCTIC
@@ -49,4 +49,4 @@ cd Speaker-recognition
 ### 2. Open the Notebook
 The notebook is designed to run in Google Colab or locally with Hyputer Notebook.
 - Google Colab: Upload Speaker_recognition.ipynb to Colab and run the cells
-- Local: RUn jyputer notebook Speaker_recognition.ipynb in your terminal
+- Local: Run jyputer notebook Speaker_recognition.ipynb in your terminal
