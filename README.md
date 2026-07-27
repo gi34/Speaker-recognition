@@ -2,9 +2,14 @@
 This repository contains the proposed solutions for unsupervised clustering speaker recognition task. This project tackle the clustering of over 200 unlabelled recordings to distinguish between speakers using unsupervised clustering algorithm.
 
 ---
-# Dataset
-Speaker Recognition - CMU ARCTIC dataset is used in the exploration of code.
-link: https://www.kaggle.com/datasets/mrgabrielblins/speaker-recognition-cmu-arctic
+# Dataset: CMU ARCTIC
+This project use Speaker Recognition - CMU ARCTIC dataset from Kaggle.
+
+- source: https://www.kaggle.com/datasets/mrgabrielblins/speaker-recognition-cmu-arctic
+- Content: The dataset includes 12466 recordings with ground truth speaker labels.
+- Format: The recordings are provided in `.wav` format at 16kHz sample rate. The data is organized into `train/` and `test/` folders with corresponding CSV files that map file paths to speaker labels and transcriptions
+
+> **Note:** The original dataset is labelled for supervised tasks, this project treat it as **unlabelled** to simulate real-world scenario. Unsupervised learning algorithm is used in this case, and the speaker labels are merely for assessing the clustering performance. 
 
 ---
 # Overview
@@ -26,10 +31,11 @@ The pdf provide a detailed discussion of:
 
 ---
 # Repository Structure
+```
 ├── README.md
 ├── Exploring Unlabelled Speaker Recognition.pdf   # Detailed report
 ├── Speaker_recognition.ipynb                      # Jupyter Notebook with code exploration
-
+```
 ---
 # Getting Started
 
